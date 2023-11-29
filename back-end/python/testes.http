@@ -1,0 +1,25 @@
+GET http://127.0.0.1:5000/registro HTTP/1.1
+
+###
+
+POST http://127.0.0.1:5000/registro HTTP/1.1
+Content-Type: application/json
+
+{
+    "data": "2023-11-25",
+    "relato": "Olá tudo bem"
+}
+
+###
+
+PUT http://127.0.0.1:5000/registro/2 HTTP/1.1
+Content-Type: application/json
+
+{
+    "data": "2023-11-25",
+    "relato": "Olá tudo bem comigo"
+}
+
+###
+
+DELETE http://127.0.0.1:5000/registro/2 HTTP/1.1

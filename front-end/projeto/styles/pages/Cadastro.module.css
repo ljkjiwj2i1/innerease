@@ -1,0 +1,78 @@
+.formContainer {
+    margin-top: 5%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.formTitle {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.formLabel {
+    font-weight: bold;
+    color: #555;
+}
+
+.formInput {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.formButton {
+    width: 100%;
+    background-color: #5EC57E;
+    border-radius: 20px;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    padding: 8px 20px;
+    display: inline-block;
+    margin: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.formButton:hover {
+    text-decoration: underline;
+    background-color: #3D8E5E;
+
+}
+
+.formLink {
+    text-align: center;
+    margin-top: 20px;
+    color: #5EC57E;
+    font-weight: bold;
+}
+
+.linkCadastrar {
+    background-color: #5EC57E;
+    border-radius: 20px;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    padding: 8px 20px;
+    display: inline-block;
+    margin: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.linkCadastrar:hover {
+    text-decoration: underline;
+    background-color: #3D8E5E;
+
+}
+
+.errorMessage {
+    color: red;
+    font-size: 0.8rem;
+    margin-top: 5px;
+}

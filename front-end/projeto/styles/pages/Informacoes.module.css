@@ -1,0 +1,22 @@
+.informacoes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  padding: 15px;
+  box-sizing: border-box;
+  background-color: #ECF8E5;
+}
+
+.txt {
+  text-align: justify;
+  text-indent: 2em;
+  line-height: 1.6;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  margin-bottom: 15px;
+  border-left: 3px solid #66BB6A;
+
+}

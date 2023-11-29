@@ -1,0 +1,40 @@
+.cabecalho {
+    background-color: #ECF8E5;
+    width: 100%;
+    color: black;
+    padding: 10px;
+    font-size: 1.3rem;
+}
+
+.cabecalho ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cabecalho li {
+    display: inline-block;
+    padding: 0 ;
+}
+
+.cabecalho a:hover {
+    text-decoration: underline;
+}
+
+.botaoLink {
+    background-color: #5EC57E;
+    border-radius: 20px;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    padding: 8px 20px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s;
+    margin: 5px;
+}
+
+.botaoLink:hover {
+    background-color: #3D8E5E;
+}
+

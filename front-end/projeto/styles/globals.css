@@ -1,0 +1,65 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+
+  body {
+    color: rgb(0, 0, 0);
+    background: white;
+    
+  }
+}
+
+#titulo {
+  color: #347571;
+  text-align: right;
+  margin-top: 15%;
+  margin-right: 5%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 3.3rem;
+}
+
+#titulo2 {
+  color: #347571;
+  text-align: right;
+  margin-right: 3%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 3.9rem;
+}
+
+#img_1 {
+  margin-top: 15%;
+  text-align: center;
+}
+
+#img_2 {
+  margin-top: 10%;
+  text-align: center;
+}
+
+#sobre_txt{
+  text-align: center;
+  font-size: 1.5rem;
+}
+.col-md-4 a {
+  display: block;
+  margin: 0 auto;
+}

@@ -1,0 +1,149 @@
+.diario {
+    font-size: 1.1rem;
+}
+
+.titulo {
+    color: #347571;
+    text-align: center;
+    margin: 1.4%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3.3rem;
+}
+
+
+.img_user {
+    height: 75px;
+    width: 75px;
+}
+
+.parag {
+    background-color: #ECF8E5;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    color: black;
+    padding: 8px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 14.8rem;
+    padding-bottom: 10px;
+}
+
+.list-group-item {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-warning,
+.btn-danger {
+    font-size: 0.9rem;
+}
+
+.btn {
+    height: 2rem;
+}
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+
+.btn-primary {
+    margin-bottom: 10px;
+}
+
+.btn-secondary {
+    margin-bottom: 10px;
+}
+
+.usuario {
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+}
+
+.usuario img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    border: 4px solid #347571;
+}
+
+.usuario p {
+    font-weight: bold;
+    font-size: 16px;
+    color: #2c3e50;
+    margin-bottom: 8px;
+}
+
+.usuario button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.usuario button:hover {
+    background-color: #347571;
+    color: #fff;
+}
+
+.titulo {
+    color: #347571;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Arial', sans-serif;
+    font-size: 3rem;
+    position: relative;
+}
+
+.titulo::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 3px;
+    background-color: #347571;
+}
+
+
+.relatos {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+}
+
+
+.seusRelatosTitulo {
+    color: #347571;
+    text-align: center;
+    margin-right: 20%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.3rem;
+}
+
+
+.relatos ul {
+    list-style: none;
+    padding: 0;
+}
+
+.relatos li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.relatos li button {
+    font-size: 14px;
+    margin-left: 5px;
+}
